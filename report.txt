@@ -1,0 +1,81 @@
+Assignment Report
+Assignment name is: Brace-topia
+
+My name is: 	Luke Chelius
+My login ID is:	ldc1618
+
+[insert your answers after the question and add more lines as needed.]
+
+[PLEASE MAKE YOUR ANSWERS SHORT AND TO THE POINT. BULLET POINTS ARE GOOD.]
+
+============= PROGRAM STATUS ==============
+
+What is the status of the program?
+Does it: put an X inside the [] for your answer
+	[] crashes when?
+	[] infinite loop when it should not?
+	[] only works in printed mode?
+	[X] work fine?
+	[] only implemented these options: [please list them]
+	[] other? Explain.
+
+
+How does your move strategy work? Describe briefly in English.
+
+    I alterneated between finding the first and last vacant spot.
+    I did this by passing an int that was 1 or 0 to my function that made the
+    move, a 0 looped through the array in reverse order, a 1 looped in standard,
+    normal order.
+    I added 1 and did modulus 2 to the int every time a move was made to make 
+    it loop the other way the next time.
+
+
+
+============= SIMULATION ANALYSIS ==============
+
+What did you find most revealing about the simulation?
+    I think the movement of the agents was the most revealing thing about the
+    simulation because you could physically see the new locations and compare
+    the city from one cycle to the next.
+
+
+
+
+
+============= GENERAL PROJECT FEEDBACK ==============
+
+What did I learn?
+    I learned how to use ncurses and getopt.
+    I alse learned how to break a C program up into several different files.
+    I also learned what the Fisher-Yates shuffle algorithm is.
+
+
+
+What was easy about this assignment?
+    To me, the easy part of this assignment was implementing the code to find
+    the happiness of the chars and the city, as well as the code to move the
+    agents to a new spot. Really the implementation of the algoritms needed was
+    easy.
+
+
+
+What gave you problems or troubles?
+    Some of the C syntax, I tried to include _DEFAULT_SOURCE twice because I 
+    split the code into several files and that caused issues that I had to 
+    figure out how to fix.
+
+
+
+What should the instructor do to improve this assignment?
+    Clearer instruction on example output, for example, the print mode output
+    that was supplied was not replicable but was not stated which led to 
+    confusion about the program not outputing correctly.
+
+
+
+What would you have liked to do in this assignment?
+    I would have liked to have more than 2 types of agents, or possibly
+    obstacles in the 'city' that act as border and separate the agents.
+
+
+
